@@ -12,12 +12,12 @@ parts of a URL.
 // What the program does
 The program extracts:
 
-- Protocol
-- Host
-- Port
-- Path
-- Query parameters
-- Fragment
+ Protocol
+ Host
+ Port
+ Path
+ Query parameters
+ Fragment
 
 //Main Java class used
 The program uses the `java.net.URL` class.
@@ -31,18 +31,18 @@ This program demonstrates how Java can connect to a MySQL database using JDBC.
 
 The program:
 
-1. Connects to the `university_db` database.
-2. Creates the `courses` table if it does not already exist.
-3. Inserts three sample courses.
-4. Searches for courses belonging to the Computer Science department.
-5. Displays the results.
+ Connects to the `university_db` database.
+ Creates the `courses` table if it does not already exist.
+ Inserts three sample courses.
+ Searches for courses belonging to the Computer Science department.
+ Displays the results.
 
 // Technologies used
 
-- Java
-- JDBC
-- MySQL
-- PreparedStatement
+ Java
+ JDBC
+ MySQL
+ PreparedStatement
 
 // Database configuration
 
@@ -73,11 +73,11 @@ session.
 
 // Main concepts demonstrated
 
-- Java Servlet
-- HttpSession
-- doGet()
-- doPost()
-- Session management
+ Java Servlet
+ HttpSession
+ doGet()
+ doPost()
+ Session management
 
   ## 4. Spring Dependency Injection
 
@@ -109,8 +109,8 @@ This interface defines the methods that can be called remotely.
 
 It contains methods for:
 
-- Celsius to Fahrenheit conversion
-- Fahrenheit to Celsius conversion
+ Celsius to Fahrenheit conversion
+ Fahrenheit to Celsius conversion
 
 // TemperatureConverterImpl.java
 
@@ -141,10 +141,10 @@ This program demonstrates the lifecycle of a Java Servlet.
 
 The program demonstrates:
 
-1. `init()` - called when the Servlet is initialized.
-2. `service()` - called when a request is received.
-3. `doGet()` - handles a GET request.
-4. `destroy()` - called when the Servlet is being removed.
+ `init()` - called when the Servlet is initialized.
+ `service()` - called when a request is received.
+ `doGet()` - handles a GET request.
+ `destroy()` - called when the Servlet is being removed.
 
 The program also prints messages to the console so that the lifecycle can
 be observed.
@@ -158,10 +158,10 @@ architecture.
 
 This is the Model class. It stores information about a book such as:
 
-- Book ID
-- Title
-- Author
-- Availability
+ Book ID
+ Title
+ Author
+ Availability
 
 ### BookDAO.java
 
@@ -194,23 +194,23 @@ User
 
 The following software and libraries may be required:
 
-- Java JDK
-- MySQL Server
-- MySQL Connector/J
-- Jakarta Servlet API
-- Jakarta JSP/JSTL
-- Spring Framework
-- A Java web server/container such as Tomcat
+ Java JDK
+ MySQL Server
+MySQL Connector/J
+ Jakarta Servlet API
+ Jakarta JSP/JSTL
+ Spring Framework
+ A Java web server/container such as Tomcat
 
 Different programs require different dependencies.
 
 ## How it can be used by users 
 
-1. Clone or download this repository.
-2. Open the Java files in a Java IDE.
-3. Configure the required libraries.
-4. For the JDBC program, start MySQL and create the required database.
-5. For Servlet programs, deploy them to a compatible web container.
-6. For the Spring files, configure the required Spring dependencies.
-7. For the RMI program, start the RMI server before running the client.
+ Clone or download this repository.
+ Open the Java files in a Java IDE.
+ Configure the required libraries.
+ For the JDBC program, start MySQL and create the required database.
+ For Servlet programs, deploy them to a compatible web container.
+ For the Spring files, configure the required Spring dependencies.
+ For the RMI program, start the RMI server before running the client.
 
