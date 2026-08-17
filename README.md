@@ -12,12 +12,12 @@ parts of a URL.
 // What the program does
 The program extracts:
 
- Protocol
- Host
- Port
- Path
- Query parameters
- Fragment
+- Protocol
+- Host
+- Port
+- Path
+- Query parameters
+- Fragment
 
 //Main Java class used
 The program uses the `java.net.URL` class.
